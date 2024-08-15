@@ -18,4 +18,6 @@ public abstract class ContactsOrderTypeUi {
     public boolean isSelected() {
         return isSelected;
     }
+
+    public abstract String createLogMessage();
 }
