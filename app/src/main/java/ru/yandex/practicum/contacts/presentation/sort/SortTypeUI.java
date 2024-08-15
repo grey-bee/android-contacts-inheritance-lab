@@ -10,6 +10,7 @@ public class SortTypeUI extends ContactsOrderTypeUi {
         super(type, isSelected);
     }
 
+    @Override
     public String createLogMessage() {
         return "Выбран тип сортировки: " + type;
     }
